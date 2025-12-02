@@ -181,7 +181,7 @@ const SETTINGS_SCHEMA = {
         label: 'Language',
         category: 'General',
         requiresRestart: false,
-        default: 'auto',
+        default: 'en',
         description:
           'The language for the user interface. Use "auto" to detect from system settings. ' +
           'You can also use custom language codes (e.g., "es", "fr") by placing JS language files ' +

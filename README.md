@@ -61,6 +61,14 @@ qwen
 
 ------
 
+## Installation
+
+```bash
+npm install -g cynthia-ops
+# Run anywhere
+cynthia
+```
+
 ## Authorization
 
 Supports OpenAI-compatible APIs:
@@ -69,7 +77,7 @@ Supports OpenAI-compatible APIs:
 export OPENAI_API_KEY="your_api_key_here"
 export OPENAI_BASE_URL="your_api_endpoint"
 export OPENAI_MODEL="your_model_choice"
-````
+```
 
 ### Configure Session Token Limit
 

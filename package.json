@@ -1,5 +1,5 @@
 {
-  "name": "@qwen-code/qwen-code",
+  "name": "cynthia-ops",
   "version": "0.3.0",
   "engines": {
     "node": ">=20.0.0"
@@ -64,6 +64,7 @@
     }
   },
   "bin": {
+    "cynthia": "dist/cli.js",
     "qwen": "dist/cli.js"
   },
   "files": [

@@ -38,7 +38,7 @@ export async function initializeApp(
   const languageSetting =
     process.env['QWEN_CODE_LANG'] ||
     settings.merged.general?.language ||
-    'auto';
+    'en';
   await initializeI18n(languageSetting);
 
   const authType = settings.merged.security?.auth?.selectedType;
